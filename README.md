@@ -2,9 +2,11 @@
 
 ## Project Overview
 This project implements **CycleGAN** using **PyTorch** to translate images of apples to oranges and vice versa. The goal is to learn an unsupervised mapping between two domains without paired examples.
+
 ---
 ## Dataset
 We use an unpaired dataset of **apples and oranges** to train CycleGAN. The dataset consists of images from both domains without explicit one-to-one correspondences.
+
 ---
 
 ## Implementation
@@ -17,6 +19,7 @@ The model consists of:
 - **Residual Blocks**: Improve feature retention and transformation.
 - **Instance Normalization**: Helps stabilize training.
 - **Reflection Padding**: Reduces edge artifacts.
+
 ---
 
 ## Future Improvements
